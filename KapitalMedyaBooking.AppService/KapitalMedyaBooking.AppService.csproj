@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="PagedList" Version="1.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KapitalMedyaBooking.Core\KapitalMedyaBooking.Core.csproj" />
+    <ProjectReference Include="..\KapitalMedyaBooking.Data\KapitalMedyaBooking.Data.csproj" />
+  </ItemGroup>
+
+</Project>
