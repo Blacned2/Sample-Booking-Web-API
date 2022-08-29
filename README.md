@@ -7,6 +7,6 @@ Because of that, you may use API project as startup project.
 2-After that on swagger, theres couple controllers such as appartments, bookings.
 Just request that api's.
 
-#Notify
+# Notify
 On search and create or update api methods, you have to type wanted parameters to related fields. Those are go through to as query.
 On get and delete functions, you can easily type the ids and get the results.
